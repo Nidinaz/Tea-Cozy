@@ -1,0 +1,179 @@
+body {
+  margin: 0px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity:0.9;
+}
+
+/*Header css*/
+.flex-header-container {
+  margin: 0px 0px;
+  height: 69px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  z-index:1;
+  background-color: black;
+}
+
+.flex-header-container img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.flex-header-container a {
+  display: inline-block;
+  justify-content: space-between;
+  color: white;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+/*Main css*/
+
+.flex-main-container {
+  position:absolute;
+  flex-direction: column;
+  top: 69px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/*Main Pageentrence*/
+
+.pageentrence-our-mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.pageentrence-text {
+background-color: black;
+text-align: center;
+width: 1200px;
+}
+
+.pageentrence-text h2, .pageentrence-text h4 {
+  padding: 10px 0px;
+  margin: 0px 0px;
+}
+
+/*Main Tea of the Month*/
+
+.tea-of-the-month {
+  width:1000px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.teatext {
+text-align: center;
+}
+
+.teapictures {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.teapictures img {
+  height: 200px;
+  width: 300px;
+  margin: 10px 15px 0px 15px;
+}
+
+
+.teatextdistance h4 {
+  margin: 10px 0px;
+  text-align: center;
+}
+
+/*Main Locations*/
+.locations {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-locations {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  opacity: 1;
+
+  }
+
+.locations-downtown, .locations-eastbayside, .locations-oakdale {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  width:300px;
+  margin: 0px 20px;
+  }
+
+.locmargin {
+  padding:0px 0px 15px 0px;
+  margin: 0px 0px;
+}
+
+/*Contact*/
+.cozy-contact {
+  height: 200px;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  margin: 0px 20px 0px 20px;
+  text-align: left;
+}
+
+/*.locations-eastbayside {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  width:300px;
+  margin: 15px 40px;
+}
+
+.locations-oakdale {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  width:300px;
+  margin: 15px 20px;
+}*/
+
+/*display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+*/

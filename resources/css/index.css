@@ -9,7 +9,7 @@ body {
 
 /*Header css*/
 .flex-header-container {
-  margin: 0px 0px;
+  margin: 0px;
   height: 69px;
   width: 100%;
   display: flex;
@@ -41,51 +41,45 @@ body {
   flex-direction: column;
   width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
-
 }
 
 /*Main Pageentrence*/
-
-.pageentrence-our-mission {
+#mission {
   margin-top: 69px;
   height: 700px;
   width: 1200px;
   background-image: url("../images/img-mission-background.jpg");
   display: flex;
-  justify-content: center;
   align-items: center;
-  }
-
-.pageentrence-text {
-background-color: black;
-text-align: center;
-width: 1200px;
 }
 
-.pageentrence-text h2, .pageentrence-text h4 {
+.pageentrance-text {
+  background-color: black;
+  text-align: center;
+  width: 1200px;
+}
+
+.pageentrance-text h2, .pageentrance-text h4 {
   padding: 10px 0px;
-  margin: 0px 0px;
+  margin: 0px;
 }
 
 /*Main Tea of the Month*/
 
-.tea-of-the-month {
-  width:1000px;
+#featuredtea {
+  width: 1000px;
   margin-top: 30px;
   margin-bottom: 50px;
 }
 
 .teatext {
-text-align: center;
+  text-align: center;
 }
 
 .teapictures {
   display:flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -102,7 +96,7 @@ text-align: center;
 }
 
 /*Main Locations*/
-.locations {
+#locations {
   background-image: url("../images/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
@@ -114,26 +108,23 @@ text-align: center;
 
 .all-locations {
   display:flex;
-  flex-direction: row;
   justify-content: center;
   width: 100%;
-  }
+}
 
-.locations-downtown, .locations-eastbayside, .locations-oakdale {
+.location {
   display:flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
   background-color: black;
   width:300px;
   margin: 0px 20px;
   opacity: 1;
-  }
+}
 
 .locmargin {
   padding:0px 0px 15px 0px;
-  margin: 0px 0px;
+  margin: 0px;
 }
 
 /*Contact*/
@@ -143,39 +134,11 @@ text-align: center;
 }
 
 .footer {
-    width: 100%;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .footer h5 {
-  margin: 0px 20px 0px 20px;
+  margin: 0px 20px;
   text-align: left;
 }
-
-/*.locations-eastbayside {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: black;
-  width:300px;
-  margin: 15px 40px;
-}
-
-.locations-oakdale {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: black;
-  width:300px;
-  margin: 15px 20px;
-}*/
-
-/*display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-*/
